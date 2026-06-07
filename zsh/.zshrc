@@ -3,6 +3,8 @@
 fastfetch
 
 export ZSH="$HOME/.oh-my-zsh"
+export EDITOR=nvim
+export VISUAL=nvim
 
 ZSH_THEME=""
 
@@ -58,3 +60,4 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="/home/imisenak/.local/bin:$PATH"
 export PATH="$PATH:$(go env GOPATH)/bin"
+
