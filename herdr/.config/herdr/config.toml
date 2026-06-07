@@ -1,0 +1,14 @@
+onboarding = false
+
+[ui]
+show_agent_labels_on_pane_borders = true
+
+[ui.toast]
+delivery = "system"
+
+[keys]
+focus_pane_left = "alt+h"
+focus_pane_right = "alt+l"
+
+[theme]
+name = "dracula"
