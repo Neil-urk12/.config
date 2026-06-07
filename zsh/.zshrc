@@ -4,7 +4,7 @@ fastfetch
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -37,10 +37,6 @@ if [ -d "$FNM_PATH" ]; then
   eval "$(fnm env --shell zsh)"
 fi
 
-autoload -Uz compinit
-compinit
-
-alias cd=z
 alias y=yazi
 alias c=clear
 alias e=exit
@@ -49,6 +45,7 @@ alias lg=lazygit
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+alias cd=z
 
 # opencode
 export PATH=/home/imisenak/.opencode/bin:$PATH
